@@ -868,6 +868,135 @@ h6 {
   text-align: left;
 }
 
+.main__team {
+  text-align: center;
+}
+
+.team__line {
+  margin-top: -10px;
+  position: relative;
+  text-align: center;
+}
+
+.team__line::before {
+  content: "";
+  width: 18.5%;
+  height: 2px;
+  background-color: #ff0036;
+  position: absolute;
+  top: 45%;
+}
+
+.team__line::after {
+  content: "";
+  width: 18.5%;
+  height: 2px;
+  background-color: #ff0036;
+  position: absolute;
+  top: 45%;
+  left: 31.5%;
+}
+
+.team__dot {
+  fill: #ff0036;
+}
+
+.team__title {
+  padding: 90px 0 50px 0;
+  font-size: 30px;
+  color: #262626;
+  font-weight: 700;
+}
+
+.team__title span {
+  color: #ff0036;
+}
+
+.team__subtitle {
+  font-size: 16px;
+  color: #505050;
+  font-weight: 700;
+  line-height: 1.375;
+  text-align: center;
+}
+
+.team__subtitle span {
+  color: #ff0036;
+}
+
+.team__body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+  padding: 100px 0;
+}
+
+.team__body :first-child {
+  margin-left: 0;
+}
+
+.team__body :last-child {
+  margin-right: 0;
+}
+
+.team__body :hover .team__social {
+  opacity: 1;
+}
+
+.team__body :hover .team__name {
+  color: #ff0036;
+}
+
+.team__item {
+  -ms-flex-preferred-size: 23%;
+      flex-basis: 23%;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.team__photo {
+  position: relative;
+}
+
+.team__social {
+  opacity: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  background: rgba(57, 57, 57, 0.8);
+}
+
+.team__social :nth-child(2) {
+  margin: auto 5px;
+}
+
+.team__link {
+  display: inline-block;
+  margin: 35% auto;
+}
+
+.team__name {
+  padding: 30px 0;
+  font-size: 20px;
+  font-family: "Raleway";
+  color: #262626;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.team__work {
+  padding-bottom: 35px;
+  font-size: 16px;
+  font-family: "Lato";
+  color: #505050;
+  line-height: 1.375;
+  font-weight: 500;
+}
+
 .containerS {
   width: 1000px;
   margin: 400px auto 0;
