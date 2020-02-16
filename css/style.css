@@ -1196,4 +1196,153 @@ h6 {
   line-height: 1.375;
   text-align: justify;
 }
+
+.main__shop {
+  text-align: center;
+}
+
+.shop__line {
+  margin-top: -10px;
+  position: relative;
+  text-align: center;
+}
+
+.shop__line::before {
+  content: "";
+  width: 18.5%;
+  height: 2px;
+  background-color: #ff0036;
+  position: absolute;
+  top: 45%;
+}
+
+.shop__line::after {
+  content: "";
+  width: 18.5%;
+  height: 2px;
+  background-color: #ff0036;
+  position: absolute;
+  top: 45%;
+  left: 31.5%;
+}
+
+.shop__dot {
+  fill: #ff0036;
+}
+
+.shop__title {
+  padding: 100px 0 50px 0;
+  font-size: 30px;
+  color: #262626;
+  font-weight: 700;
+}
+
+.shop__title span {
+  color: #ff0036;
+}
+
+.shop__subtitle {
+  font-size: 16px;
+  color: #505050;
+  font-weight: 700;
+  line-height: 1.375;
+  text-align: center;
+}
+
+.shop__subtitle span {
+  color: #ff0036;
+}
+
+.shop__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 100px 0;
+}
+
+.shop__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-preferred-size: 23%;
+      flex-basis: 23%;
+  font-size: 16px;
+  font-family: "Lato";
+  color: #262626;
+  line-height: 3;
+  font-weight: 600;
+}
+
+.shop__item:hover .item__link,
+.shop__item:hover .item__price {
+  background-color: #f50235;
+  color: #fff;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.item__title {
+  background-color: #262626;
+  font-size: 20px;
+  font-family: "Raleway";
+  color: #ffffff;
+  text-transform: uppercase;
+  line-height: 2;
+}
+
+.item__price {
+  background-color: #f2f2f2;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+.item__price span {
+  font-size: 50px;
+}
+
+.item__cpu {
+  border: 1px solid #e7e7e7;
+}
+
+.item__hdd {
+  border: 1px solid #e7e7e7;
+}
+
+.item__ram {
+  border: 1px solid #e7e7e7;
+}
+
+.item__traffic {
+  border: 1px solid #e7e7e7;
+}
+
+.item__connect {
+  border: 1px solid #e7e7e7;
+}
+
+.item__ip {
+  border: 1px solid #e7e7e7;
+}
+
+.item__btn {
+  padding: 20px;
+  border: 1px solid #e7e7e7;
+}
+
+.item__link {
+  padding: 12px 50px;
+  background-color: #262626;
+  font-size: 18px;
+  font-family: "Raleway";
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: 400;
+}
 /*# sourceMappingURL=style.css.map */

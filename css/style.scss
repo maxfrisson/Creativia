@@ -929,6 +929,130 @@ h6 {
   }
 }
 
+.main {
+  &__shop {
+    text-align: center;
+  }
+}
+.shop {
+  &__line {
+    margin-top: -10px;
+    position: relative;
+    text-align: center;
+    &::before {
+      content: "";
+      width: 18.5%;
+      height: 2px;
+      background-color: #ff0036;
+      position: absolute;
+      top: 45%;
+    }
+    &::after {
+      content: "";
+      width: 18.5%;
+      height: 2px;
+      background-color: #ff0036;
+      position: absolute;
+      top: 45%;
+      left: 31.5%;
+    }
+  }
+  &__dot {
+    fill: #ff0036;
+  }
+  &__title {
+    padding: 100px 0 50px 0;
+    font-size: 30px;
+    color: #262626;
+    font-weight: 700;
+    span {
+      color: #ff0036;
+    }
+  }
+  &__subtitle {
+    font-size: 16px;
+    color: #505050;
+    font-weight: 700;
+    line-height: 1.375;
+    text-align: center;
+    span {
+      color: #ff0036;
+    }
+  }
+  &__list {
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 0;
+  }
+  &__item {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 23%;
+    font-size: 16px;
+    font-family: "Lato";
+    color: #262626;
+    line-height: 3;
+    font-weight: 600;
+    &:hover .item__link,
+    &:hover .item__price {
+      background-color: #f50235;
+      color: #fff;
+      transition: 0.3s;
+    }
+  }
+}
+.item {
+  &__title {
+    background-color: #262626;
+    font-size: 20px;
+    font-family: "Raleway";
+    color: #ffffff;
+    text-transform: uppercase;
+    line-height: 2;
+  }
+  &__price {
+    background-color: #f2f2f2;
+    font-weight: 700;
+    line-height: 1.5;
+    span {
+      font-size: 50px;
+    }
+  }
+  &__cpu {
+    border: 1px solid #e7e7e7;
+  }
+  &__hdd {
+    border: 1px solid #e7e7e7;
+  }
+  &__ram {
+    border: 1px solid #e7e7e7;
+  }
+  &__traffic {
+    border: 1px solid #e7e7e7;
+  }
+  &__connect {
+    border: 1px solid #e7e7e7;
+  }
+  &__ip {
+    border: 1px solid #e7e7e7;
+  }
+  &__btn {
+    padding: 20px;
+    border: 1px solid #e7e7e7;
+  }
+  &__link {
+    padding: 12px 50px;
+    background-color: #262626;
+    font-size: 18px;
+    font-family: "Raleway";
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 400;
+  }
+}
+
+
+
 // &__line {
 //   position: relative;
 //   text-align: center;
