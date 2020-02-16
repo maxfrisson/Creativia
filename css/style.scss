@@ -1079,7 +1079,116 @@ h6 {
   }
 }
 
-
+.main {
+  &__blog {
+    text-align: center;
+  }
+}
+.blog {
+  &__line {
+    margin-top: -10px;
+    position: relative;
+    text-align: center;
+    &::before {
+      content: "";
+      width: 18.5%;
+      height: 2px;
+      background-color: #ff0036;
+      position: absolute;
+      top: 45%;
+    }
+    &::after {
+      content: "";
+      width: 18.5%;
+      height: 2px;
+      background-color: #ff0036;
+      position: absolute;
+      top: 45%;
+      left: 31.5%;
+    }
+  }
+  &__dot {
+    fill: #ff0036;
+  }
+  &__title {
+    padding: 100px 0 50px 0;
+    font-size: 30px;
+    color: #262626;
+    font-weight: 700;
+    span {
+      color: #ff0036;
+    }
+  }
+  &__subtitle {
+    font-size: 16px;
+    color: #505050;
+    font-weight: 700;
+    line-height: 1.375;
+    text-align: center;
+    span {
+      color: #ff0036;
+    }
+  }
+  &__body {
+    display: flex;
+    flex-direction: column;
+    padding: 100px 0;
+    text-align: left;
+  }
+  &__item {
+    &:first-child {
+      margin-bottom: 50px;
+    }
+    &:hover .blog__item-link {
+      background: #f50235;
+      transition: 0.3s;
+    }
+    &:hover .blog__item-image {
+      opacity: 0.7;
+      transition: 0.3s;
+    }
+  }
+  &__item-image {
+    float: left;
+    padding-right: 30px;
+  }
+  &__item-title {
+    font-size: 20px;
+    font-family: "Raleway";
+    color: #2e2e2e;
+    font-weight: bold;
+  }
+  &__item-subtitle {
+    padding: 23px 0;
+    font-size: 12px;
+    font-family: "Lato";
+    color: #a2a2a2;
+    img {
+      padding-right: 5px;
+    }
+  }
+  &__item-user {
+    padding-right: 23px;
+  }
+  &__item-comment {
+    padding-right: 23px;
+  }
+  &__item-text {
+    padding-bottom: 35px;
+    font-size: 16px;
+    font-family: "Lato";
+    color: #505050;
+    text-align: justify;
+  }
+  &__item-link {
+    padding: 15px;
+    background: #262626;
+    font-size: 16px;
+    font-family: "Lato";
+    color: #ffffff;
+    text-transform: uppercase;
+  }
+}
 
 // &__line {
 //   position: relative;
