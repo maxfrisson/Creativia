@@ -1345,4 +1345,31 @@ h6 {
   text-transform: uppercase;
   font-weight: 400;
 }
+
+.main__twit {
+  background-color: #272727;
+  text-align: center;
+  position: relative;
+  padding: 100px 0;
+  overflow: hidden;
+}
+
+.twit__image-big {
+  position: absolute;
+  bottom: -2%;
+  left: 2%;
+}
+
+.twit__icon {
+  margin-bottom: 30px;
+}
+
+.twit__text {
+  margin: 0 32%;
+  font-size: 16px;
+  font-family: "Lato";
+  color: #ffffff;
+  line-height: 1.375;
+  font-weight: 500;
+}
 /*# sourceMappingURL=style.css.map */

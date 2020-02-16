@@ -1051,6 +1051,34 @@ h6 {
   }
 }
 
+.main {
+  &__twit {
+    background-color: #272727;
+    text-align: center;
+    position: relative;
+    padding: 100px 0;
+    overflow: hidden;
+  }
+}
+.twit {
+  &__image-big {
+    position: absolute;
+    bottom: -2%;
+    left: 2%;
+  }
+  &__icon {
+    margin-bottom: 30px;
+  }
+  &__text {
+    margin: 0 32%;
+    font-size: 16px;
+    font-family: "Lato";
+    color: #ffffff;
+    line-height: 1.375;
+    font-weight: 500;
+  }
+}
+
 
 
 // &__line {
