@@ -21,11 +21,11 @@ ibg();
 //============== SLIDER =================================
 if ($(".slider__body").length > 0) {
   $(".slider__body").slick({
-    //  autoplay: true,
-    //  infinite: false,
+    autoplay: true,
+    infinite: true,
     dots: false,
     arrows: true,
-    accessibility: false,
+    accessibility: true,
     slidesToShow: 1,
     autoplaySpeed: 3000,
     adaptiveHeight: true,
