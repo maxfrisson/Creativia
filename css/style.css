@@ -288,7 +288,7 @@ h6 {
 .slider__item-btn {
   margin: 0 20px;
   padding: 15px 45px;
-  background-color: #ff2d44;
+  background-color: #131313;
   color: #fff;
   font-size: 20px;
   font-family: "Raleway";
@@ -296,8 +296,10 @@ h6 {
   line-height: 1.2;
 }
 
-.slider__item-btn:last-child {
-  background-color: #131313;
+.slider__item-btn:hover {
+  background-color: #ff2d44;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 .about__title {
@@ -415,6 +417,8 @@ h6 {
 .about__bottom-link:hover .about__bottom-stroke {
   fill: #ff2d44;
   stroke: #ff2d44;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 .about__bottom-image {
@@ -598,6 +602,14 @@ h6 {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+}
+
+.element-item {
+  cursor: pointer;
+}
+
+.element-item:hover {
+  opacity: 0.8;
 }
 
 .product__line {
