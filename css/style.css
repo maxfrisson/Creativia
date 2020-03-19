@@ -750,6 +750,7 @@ h6 {
   padding: 10px;
   font-size: 20px;
   text-transform: uppercase;
+  color: #000;
 }
 
 .product__list-link span {
@@ -1201,7 +1202,7 @@ h6 {
 
 .services__item-title img {
   position: absolute;
-  left: 3.6%;
+  left: 3%;
 }
 
 .services__item-text {
