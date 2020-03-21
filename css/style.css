@@ -376,6 +376,7 @@ h6 {
   background-color: #262626;
   position: absolute;
   top: 50%;
+  right: 31.5%;
 }
 
 .about__line::after {
@@ -1035,6 +1036,7 @@ h6 {
   background-color: #262626;
   position: absolute;
   top: 50%;
+  right: 31.5%;
 }
 
 .skills__line::after {
