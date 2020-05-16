@@ -1405,6 +1405,9 @@ h6 {
     color: #ffffff;
     text-transform: uppercase;
     cursor: pointer;
+    :hover {
+      background: #ff0036;
+    }
   }
 }
 
