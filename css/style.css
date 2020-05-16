@@ -1756,6 +1756,10 @@ h6 {
   cursor: pointer;
 }
 
+.form__btn:hover {
+  background: #ff0036;
+}
+
 .footer {
   display: -webkit-box;
   display: -ms-flexbox;
